@@ -1,0 +1,1 @@
+nucleo_l053r8_mcp2515\startup_stm32l053xx.o: startup_stm32l053xx.s

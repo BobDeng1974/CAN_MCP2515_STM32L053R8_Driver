@@ -1,0 +1,734 @@
+Dependencies for Project 'Nucleo_L053R8_MCP2515', Target 'Nucleo_L053R8_MCP2515': (DO NOT MODIFY !)
+F (startup_stm32l053xx.s)(0x5E23B393)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32L053xx SETA 1"--list startup_stm32l053xx.lst --xref -o nucleo_l053r8_mcp2515\startup_stm32l053xx.o --depend nucleo_l053r8_mcp2515\startup_stm32l053xx.d)
+F (../Src/main.c)(0x5E23D2B4)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\main.o --omf_browse nucleo_l053r8_mcp2515\main.crf --depend nucleo_l053r8_mcp2515\main.d)
+I (../Inc/main.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+I (../Src/CANSPI.h)(0x5E23C88C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC22A2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEC22A2)
+F (../Src/stm32l0xx_it.c)(0x5E23B38E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_it.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_it.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_it.d)
+I (../Inc/main.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_it.h)(0x5E23B38E)
+F (../Src/stm32l0xx_hal_msp.c)(0x5E23B38F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_msp.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_msp.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_msp.d)
+I (../Inc/main.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (..\Src\CANSPI.c)(0x5A61F626)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\canspi.o --omf_browse nucleo_l053r8_mcp2515\canspi.crf --depend nucleo_l053r8_mcp2515\canspi.d)
+I (..\Src\CANSPI.h)(0x5E23C88C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+I (..\Src\MCP2515.h)(0x5E23CC27)
+F (..\Src\CANSPI.h)(0x5E23C88C)()
+F (..\Src\MCP2515.c)(0x5A61F626)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\mcp2515.o --omf_browse nucleo_l053r8_mcp2515\mcp2515.crf --depend nucleo_l053r8_mcp2515\mcp2515.d)
+I (..\Src\MCP2515.h)(0x5E23CC27)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (..\Src\MCP2515.h)(0x5E23CC27)()
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c)(0x5E23AA56)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_spi.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_spi.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_spi.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c)(0x5E23AA56)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_tim.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_tim.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_tim.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c)(0x5E23AA56)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_tim_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_tim_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_tim_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c)(0x5E23AA56)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_uart.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_uart.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_uart.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c)(0x5E23AA56)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_uart_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_uart_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_uart_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_i2c_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_rcc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ramfunc.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ramfunc.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_flash.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_flash.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_flash.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_flash_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_gpio.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_gpio.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_gpio.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_dma.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_dma.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_dma.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr_ex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr_ex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_pwr_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c)(0x5E23AA55)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\stm32l0xx_hal_cortex.o --omf_browse nucleo_l053r8_mcp2515\stm32l0xx_hal_cortex.crf --depend nucleo_l053r8_mcp2515\stm32l0xx_hal_cortex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
+F (../Src/system_stm32l0xx.c)(0x5E23A9E4)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Nucleo_L053R8_MCP2515-IC:\Users\Jonathan\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Jonathan\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o nucleo_l053r8_mcp2515\system_stm32l0xx.o --omf_browse nucleo_l053r8_mcp2515\system_stm32l0xx.crf --depend nucleo_l053r8_mcp2515\system_stm32l0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h)(0x5E23A9E3)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5E23AA0B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC22A2)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5E23AA0B)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5E23A9E3)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5E23AA55)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E23B38F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5E23AA55)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC22A2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5E23AA55)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5E23AA55)
