@@ -13,7 +13,7 @@ id_reg_t idReg;
 
 /** CAN SPI APIs */ 
 
-/* Sleep 모드 진입 */
+/* Sleep */
 void CANSPI_Sleep(void)
 {
   /* Clear CAN bus wakeup interrupt */
@@ -25,7 +25,7 @@ void CANSPI_Sleep(void)
   MCP2515_SetSleepMode();
 }
 
-/* CAN 통신 초기화  */
+/* CAN */
 bool CANSPI_Initialize(void)
 {
   RXF0 RXF0reg;
@@ -37,7 +37,7 @@ bool CANSPI_Initialize(void)
   RXM0 RXM0reg;
   RXM1 RXM1reg;
       
-  /* Rx Mask values 초기화 */
+  /* Rx Mask values */
   RXM0reg.RXM0SIDH = 0x00;
   RXM0reg.RXM0SIDL = 0x00;
   RXM0reg.RXM0EID8 = 0x00;
@@ -48,7 +48,7 @@ bool CANSPI_Initialize(void)
   RXM1reg.RXM1EID8 = 0x00;
   RXM1reg.RXM1EID0 = 0x00;
   
-  /* Rx Filter values 초기화 */
+  /* Rx Filter values */
   RXF0reg.RXF0SIDH = 0x00;      
   RXF0reg.RXF0SIDL = 0x00;      //Starndard Filter
   RXF0reg.RXF0EID8 = 0x00;
@@ -79,15 +79,15 @@ bool CANSPI_Initialize(void)
   RXF5reg.RXF5EID8 = 0x00;
   RXF5reg.RXF5EID0 = 0x00;
   
-  /* MCP2515 초기화, SPI 통신 상태 확인 */
+  /* MCP2515, SPI */
   if(!MCP2515_Initialize())
     return false;
     
-  /* Configuration 모드로 설정 */
+  /* Configuration */
   if(!MCP2515_SetConfigMode())
     return false;
   
-  /* Filter & Mask 값 설정 */
+  /* Filter & Mask */
   MCP2515_WriteByteSequence(MCP2515_RXM0SIDH, MCP2515_RXM0EID0, &(RXM0reg.RXM0SIDH));
   MCP2515_WriteByteSequence(MCP2515_RXM1SIDH, MCP2515_RXM1EID0, &(RXM1reg.RXM1SIDH));
   MCP2515_WriteByteSequence(MCP2515_RXF0SIDH, MCP2515_RXF0EID0, &(RXF0reg.RXF0SIDH));
@@ -117,14 +117,14 @@ bool CANSPI_Initialize(void)
   /* 1 0 000 011(4tq) */  
   MCP2515_WriteByte(MCP2515_CNF3, 0x83);
   
-  /* Normal 모드로 설정 */
+  /* Normal */
   if(!MCP2515_SetNormalMode())
     return false;
   
   return true;
 }
 
-/* CAN 메시지 전송 */
+/* CAN */
 uint8_t CANSPI_Transmit(uCAN_MSG *tempCanMsg) 
 {
   uint8_t returnValue = 0;
@@ -136,16 +136,16 @@ uint8_t CANSPI_Transmit(uCAN_MSG *tempCanMsg)
   
   ctrlStatus.ctrl_status = MCP2515_ReadStatus();
   
-  /* 현재 Transmission 이 Pending 되지 않은 버퍼를 찾아서 전송한다. */
+  /* Transmission Pending*/
   if (ctrlStatus.TXB0REQ != 1)
   {
-    /* ID Type에 맞게 변환 */
+    /* ID Type */
     convertCANid2Reg(tempCanMsg->frame.id, tempCanMsg->frame.idType, &idReg);
     
-    /* Tx Buffer에 전송할 데이터 Loading */
+    /* Tx Buffer Loading */
     MCP2515_LoadTxSequence(MCP2515_LOAD_TXB0SIDH, &(idReg.tempSIDH), tempCanMsg->frame.dlc, &(tempCanMsg->frame.data0));
     
-    /* Tx Buffer의 데이터 전송요청 */
+    /* Tx Buffer */
     MCP2515_RequestToSend(MCP2515_RTS_TX0);
     
     returnValue = 1;
@@ -172,7 +172,7 @@ uint8_t CANSPI_Transmit(uCAN_MSG *tempCanMsg)
   return (returnValue);
 }
 
-/* CAN 메시지 수신 */
+/* CAN */
 uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg) 
 {
   uint8_t returnValue = 0;
@@ -181,10 +181,8 @@ uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg)
   
   rxStatus.ctrl_rx_status = MCP2515_GetRxStatus();
   
-  /* 버퍼에 수신된 메시지가 있는지 확인 */
   if (rxStatus.rxBuffer != 0)
   {
-    /* 어떤 버퍼에 메시지가 있는지 확인 후 처리 */
     if ((rxStatus.rxBuffer == MSG_IN_RXB0)|(rxStatus.rxBuffer == MSG_IN_BOTH_BUFFERS))
     {
       MCP2515_ReadRxSequence(MCP2515_READ_RXB0SIDH, rxReg.rx_reg_array, sizeof(rxReg.rx_reg_array));
@@ -194,7 +192,7 @@ uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg)
       MCP2515_ReadRxSequence(MCP2515_READ_RXB1SIDH, rxReg.rx_reg_array, sizeof(rxReg.rx_reg_array));
     }
     
-    /* Extended 타입 */
+    /* Extended */
     if (rxStatus.msgType == dEXTENDED_CAN_MSG_ID_2_0B)
     {
       tempCanMsg->frame.idType = (uint8_t) dEXTENDED_CAN_MSG_ID_2_0B;
@@ -202,7 +200,7 @@ uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg)
     } 
     else 
     {
-      /* Standard 타입 */
+      /* Standard */
       tempCanMsg->frame.idType = (uint8_t) dSTANDARD_CAN_MSG_ID_2_0B;
       tempCanMsg->frame.id = convertReg2StandardCANid(rxReg.RXBnSIDH, rxReg.RXBnSIDL);
     }
@@ -223,7 +221,6 @@ uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg)
   return (returnValue);
 }
 
-/* 수신 버퍼에 메시지가 있는지 체크 */
 uint8_t CANSPI_messagesInBuffer(void)
 {
   uint8_t messageCount = 0;
@@ -243,7 +240,7 @@ uint8_t CANSPI_messagesInBuffer(void)
   return (messageCount);
 }
 
-/* CAN BUS 가 Offline 인지 체크 */
+/* CAN BUS Offline*/
 uint8_t CANSPI_isBussOff(void)
 {
   uint8_t returnValue = 0;
@@ -258,7 +255,7 @@ uint8_t CANSPI_isBussOff(void)
   return (returnValue);
 }
 
-/* Rx Passive Error 상태인지 체크 */
+/* Rx Passive Error*/
 uint8_t CANSPI_isRxErrorPassive(void)
 {
   uint8_t returnValue = 0;
@@ -273,7 +270,7 @@ uint8_t CANSPI_isRxErrorPassive(void)
   return (returnValue);
 }
 
-/* Tx Passive Error 상태인지 체크 */
+/* Tx Passive Error */
 uint8_t CANSPI_isTxErrorPassive(void)
 {
   uint8_t returnValue = 0;
@@ -288,7 +285,7 @@ uint8_t CANSPI_isTxErrorPassive(void)
   return (returnValue);
 }
 
-/* Register 저장값을 Extended ID 타입으로 변환하기 위한 함수 */
+/* Register Extended ID */
 static uint32_t convertReg2ExtendedCANid(uint8_t tempRXBn_EIDH, uint8_t tempRXBn_EIDL, uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL) 
 {
   uint32_t returnValue = 0;
@@ -310,7 +307,7 @@ static uint32_t convertReg2ExtendedCANid(uint8_t tempRXBn_EIDH, uint8_t tempRXBn
   return (returnValue);
 }
 
-/* Register 저장값을 Standard ID 타입으로 변환하기 위한 함수 */
+/* Register Standard ID */
 static uint32_t convertReg2StandardCANid(uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL) 
 {
   uint32_t returnValue = 0;
@@ -323,7 +320,7 @@ static uint32_t convertReg2StandardCANid(uint8_t tempRXBn_SIDH, uint8_t tempRXBn
   return (returnValue);
 }
 
-/* CAN ID를 Register에 저장하기 위한 변환 함수 */
+/* CAN ID Register */
 static void convertCANid2Reg(uint32_t tempPassedInID, uint8_t canIdType, id_reg_t *passedIdReg) 
 {
   uint8_t wipSIDL = 0;

@@ -41,4 +41,4 @@ uint8_t CANSPI_isBussOff(void);
 uint8_t CANSPI_isRxErrorPassive(void);
 uint8_t CANSPI_isTxErrorPassive(void);
 
-#endif	/* __CAN_SPI_H */
+#endif
